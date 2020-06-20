@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
 </head>
 <body>
   <header>
@@ -12,35 +15,64 @@
       <img src="" alt="logo">
     </div>
     <div class="greenbox">
-      <ul>
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Others</li>
-      </ul>
+      <div class="strict_width">
+        <ul class="menu">
+          <li>Coffee</li>
+          <li>Tea</li>
+          <li>Others</li>
+        </ul>
+        <div class="narrow_bar">
+          <div>絞り込み</div>
+          <ul>
+            <li>ホット or アイスで絞り込み</li>
+            <li>家にある材料で絞り込み</li>
+          </ul>
+        </div>
+      </div>
     </div>
   </header>
   <main>
-    <h1>おうちで作れるビバレッジレシピ</h1>
     <div class="strict_width">
+      <h1>おうちで作れるビバレッジレシピ</h1>
       <div id="Coffee_wrapper">
         <h2>Coffee</h2>
-        <ul>
-          <li>
-            <img src="images/caffe_americano.png" alt="カフェ・アメリカーノの挿絵">
+        <ul class="recipes">
+          <li class="recipe">
+            <div class="img_wrapper">
+              <img src="images/caffe_americano.png" alt="カフェ・アメリカーノの挿絵">
+            </div>
             <span>カフェ・アメリカーノ</span>
           </li>
-          <li>
-            <img src="images/caffe_latte.png" alt="カフェラテの挿絵">
+          <li class="recipe">
+            <div class="img_wrapper">
+              <img src="images/caffe_latte.png" alt="カフェラテの挿絵">
+            </div>
             <span>カフェラテ</span>
           </li>
-          <li>
-            <img src="images/cafe_au_lait.png" alt="カフェオレの挿絵">
+          <li class="recipe">
+            <div class="img_wrapper">
+              <img src="images/cafe_au_lait.png" alt="カフェオレの挿絵">
+            </div>
             <span>カフェオレ</span>
           </li>
-          <li>
-            <img src="images/caramel_caffe_latte.png" alt="キャラメルラテの挿絵">
+          <li class="recipe">
+            <div class="img_wrapper">
+              <img src="images/caramel_caffe_latte.png" alt="キャラメルラテの挿絵">
+            </div>
             <span>キャラメルラテ</span>
           </li>
+        </ul>
+      </div>
+      <div id="Tea_wrapper">
+        <h2>Tea</h2>
+        <ul>
+          <li>
+            <img src="" alt="">
+          </li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </div>
     </div>

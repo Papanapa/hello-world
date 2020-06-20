@@ -1,0 +1,53 @@
+li{
+  list-style: none;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background: rgba(157, 133, 105, 0.3);
+}
+.strict_width{
+  width: 900px;
+  margin: 0 auto;
+  background: white;
+}
+.greenbox{
+  background: #A5AB31;
+}
+.menu{
+  display: flex;
+}
+.menu li{
+  width: 25%;
+  height: 3em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.recipes{
+  display: flex;
+  flex-wrap: wrap;
+
+  border-top: solid 1px gray;
+  border-left: solid 1px gray;
+}
+.recipe{
+  display: inline-block;
+  width: 33.3%;
+
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+  box-sizing: border-box;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_wrapper{
+  height: 200px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,6 @@
+.narrow_bar ul{
+  display: none;
+}
+.narrow_bar:hover ul{
+  display: block;
+}
