@@ -1,6 +1,41 @@
+.narrow_bar{
+  display: none;
+}
 .narrow_bar ul{
   display: none;
 }
 .narrow_bar:hover ul{
   display: block;
+}
+.recipes{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+
+}
+.recipe{
+  display: inline-block;
+  width: 280px;
+  margin: 10px;
+
+  border-top: solid 1px gray;
+  border-left: solid 1px gray;
+  border-right: solid 1px gray;
+  border-bottom: solid 1px gray;
+  box-sizing: border-box;
+
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.img_wrapper{
+  height: 200px;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width:900px){
+  .recipe{
+    width: 240px;
+  }
 }
