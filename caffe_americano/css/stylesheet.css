@@ -27,6 +27,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+
 .img_wrapper{
   height: 200px;
   display: flex;
@@ -37,4 +39,42 @@
     width: 240px;
     margin: 10px;
   }
+}
+.recipe_wrapper{
+  position: relative;
+  height: 180px;
+}
+.recipe_wrapper::before{
+    content: "";
+    display: block;
+    padding-top: 100%; /* 1:1 */
+}
+.button_wrapper{
+  display: flex;
+  text-align: center;
+}
+.hotandiced_button{
+  width: 50px;
+}
+.hot_button{
+  background-color: red;
+}
+.iced_button{
+  background-color: blue;
+}
+.hotandiced_menu{
+  position: absolute;
+  top: 0;
+  width: 80%;
+  height: 100%;
+}
+.hot_menu{
+  left: 0;
+  background-color: red;
+  z-index: 1;
+}
+.iced_menu{
+  left: 20px;
+  background-color: blue;
+  z-index: 2;
 }
