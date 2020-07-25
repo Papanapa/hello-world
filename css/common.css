@@ -71,7 +71,22 @@ header .menu li{
   align-items: center;
   justify-content: center;
 }
+header .menu li a{
+
+}
 header .menu:first-child{
   border-left: solid 1px white;
 }
 /*header end*/
+
+/*common*/
+.border_surround{
+  border: solid 1px gray;
+  padding: 15px;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*common end*/

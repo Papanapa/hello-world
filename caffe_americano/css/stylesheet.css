@@ -72,5 +72,8 @@
 .recipe_body{
   padding: 20px;
 
+}
+.sortLandR{
   display: flex;
+  justify-content: space-between;
 }
