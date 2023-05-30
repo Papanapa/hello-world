@@ -1,52 +1,7 @@
-/*.narrow_bar{
-  display: none;
-}
-.narrow_bar ul{
-  display: none;
-}
-.narrow_bar:hover ul{
-  display: block;
-}
-.recipes{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.recipe{
-  display: inline-block;
-  width: 280px;
-  margin: 20px;
-
-  border-top: solid 1px gray;
-  border-left: solid 1px gray;
-  border-right: solid 1px gray;
-  border-bottom: solid 1px gray;
-  box-sizing: border-box;
-
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-}
-.img_wrapper{
-  height: 200px;
-  display: flex;
-  align-items: center;
-}
-@media screen and (max-width:900px){
-  .recipe{
-    width: 240px;
-    margin: 10px;
-  }
-}
-*/
-
 body{
   font-family: 'Noto Sans JP','Noto Sans', sans-serif;
 }
-.mb30{
-  margin-bottom: 30px !important;
-}
-.submit-red_round input{
+.mem-submit input{
   padding: 6px 25px 6px 25px;
   background-color: #D71920;
   border: solid 2px #D71920;
@@ -55,6 +10,13 @@ body{
   font-size: 16px;
   font-weight: 600;
 }
-.submit-red_round input:hover{
+.mem-submit input:hover{
   opacity: 0.75;
+}
+.mem-inquire label::after{
+  content: "*";
+  color: #D71920;
+}
+.mem-inquire input{
+  width: 100%;
 }
