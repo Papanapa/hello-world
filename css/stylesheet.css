@@ -29,3 +29,8 @@ body{
 .error.no-label{
     color: #D71920;
 }
+.form-field.mem-inquire.error input{
+  outline: solid 2px #D71920;
+  outline-offset: -2px;
+  border-radius: 3px;
+}
