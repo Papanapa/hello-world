@@ -1,5 +1,7 @@
 body{
   font-family: 'Noto Sans JP','Noto Sans', sans-serif;
+  max-width: 500px;
+  margin: 0 auto;
 }
 .mem-submit input{
   padding: 6px 25px 6px 25px;
@@ -19,4 +21,8 @@ body{
 }
 .form-field input{
   width: 100%;
+}
+.errors,
+.error.no-label{
+    color: #D71920;
 }
