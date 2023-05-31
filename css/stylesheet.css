@@ -22,6 +22,8 @@ body{
 }
 .form-field input{
   width: 100%;
+  padding: 18px 22px;
+  box-sizing: border-box;
 }
 .errors,
 .error.no-label{
