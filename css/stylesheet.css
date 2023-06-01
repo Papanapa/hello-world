@@ -14,7 +14,7 @@ body{
   font-weight: 600;
 }
 .mem-submit input:hover{
-  opacity: 0.75;
+  opacity: 0.6;
 }
 .mem-inquire label::after{
   content: "*";
@@ -33,4 +33,18 @@ body{
   outline: solid 2px #D71920;
   outline-offset: -2px;
   border-radius: 3px;
+}
+.mem-input.last_name,
+.mem-input.last_name.error{
+    display: inline-block;
+    width: 47%;
+    margin-right: 5%;
+}
+.mem-input.first_name,
+.mem-input.first_name.error{
+    display: inline-block;
+    width: 47%;
+}
+.mem-input.last_name + .error.no-label{
+    display: none;
 }
