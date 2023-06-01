@@ -45,6 +45,6 @@ body{
     display: inline-block;
     width: 47%;
 }
-.mem-input.last_name + .error.no-label{
+.mem-input.last_name + * + .error.no-label{
     display: none;
 }
