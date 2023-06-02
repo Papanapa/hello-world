@@ -41,6 +41,20 @@ body{
   border-radius: 3px;
 }
 @media only screen and (min-width: 769px){
+  /*部署・役職*/
+  .form-field.department,
+  .form-field.department.error{
+      display: inline-block;
+      width: 47%;
+      margin-right: 5%;
+  }
+  .form-field.job_title,
+  .form-field.job_title.error{
+      display: inline-block;
+      width: 47%;
+  }
+
+  /*姓・名*/
   .mem-input.last_name,
   .mem-input.last_name.error{
       display: inline-block;
@@ -56,6 +70,25 @@ body{
       display: none;
   }
   .mem-input.first_name + * + .error.no-label{
+    margin-top: 0;
+  }
+
+  /*メールアドレス・電話番号*/
+  .mem-input.email,
+  .mem-input.email.error{
+      display: inline-block;
+      width: 47%;
+      margin-right: 5%;
+  }
+  .mem-input.phone,
+  .mem-input.phone.error{
+      display: inline-block;
+      width: 47%;
+  }
+  .mem-input.email + * + .error.no-label{
+      display: none;
+  }
+  .mem-input.phone + * + .error.no-label{
     margin-top: 0;
   }
 }
