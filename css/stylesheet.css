@@ -62,6 +62,10 @@ body{
     display: block;
     margin: 16px auto;
   }
+  .errors,
+  .error.no-label{
+      margin-left: 25%;
+  }
   /*姓・名*/
   .mem-input.last_name,
   .mem-input.last_name.error{
