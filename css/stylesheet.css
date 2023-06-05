@@ -50,6 +50,13 @@ body{
   text-align: center;
 }
 @media only screen and (min-width: 769px){
+  .g-recaptcha{
+    padding-top: 10px;
+  }
+  .mem-submit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
   .form-field{
     width: 50%;
     display: block;
@@ -59,13 +66,14 @@ body{
   .mem-input.last_name,
   .mem-input.last_name.error{
       display: inline-block;
-      width: 47%;
-      margin-right: 5%;
+      width: 23%;
+      margin: 0 3% 0 25%;
   }
   .mem-input.first_name,
   .mem-input.first_name.error{
       display: inline-block;
-      width: 47%;
+      width: 23%;
+      margin: 0 25% 0 0;
   }
   .mem-input.last_name + * + .error.no-label{
       display: none;
