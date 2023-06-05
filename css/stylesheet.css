@@ -26,7 +26,7 @@ body{
   content: "*";
   color: #D71920;
 }
-.form-field input{
+.mem-input input{
   width: 100%;
   padding: 18px 22px;
   box-sizing: border-box;
@@ -35,7 +35,7 @@ body{
 .error.no-label{
     color: #D71920;
 }
-.form-field.mem-inquire.error input{
+.mem-input.mem-inquire.error input{
   outline: solid 2px #D71920;
   outline-offset: -2px;
   border-radius: 3px;
@@ -49,6 +49,9 @@ body{
 .mem-submit{
   text-align: center;
 }
+.mem-note{
+  font-size: 16px;
+}
 @media only screen and (min-width: 769px){
   .g-recaptcha{
     padding-top: 10px;
@@ -57,7 +60,7 @@ body{
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .form-field{
+  .mem-input{
     width: 50%;
     display: block;
     margin: 16px auto;
